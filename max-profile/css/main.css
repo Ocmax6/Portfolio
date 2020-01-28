@@ -1,0 +1,130 @@
+
+/*** *global* ******/
+
+body {
+    font: 15px/1.5 arial, helvetica,sans-serif;
+    background: #b3acac;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#img {
+    width: 400px;
+    height: 400px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ******* Header ****** */
+
+header {
+background: #869c5d;
+padding-top:  10px;
+color: rgb(7, 53, 54);
+min-height: 10px;
+border-bottom: rgb(158, 111, 120) 3px solid;
+}
+
+header a {
+    color: rgb(182, 15, 126);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+ header #namepost {
+     float: left;
+ }
+ header #namepost h1{
+     margin: 0;
+ }
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .max, header .current a {
+    color: darkviolet;
+    font-weight: bold;
+}
+header a:hover {
+    color: forestgreen;
+    font-weight: bold;
+}
+
+
+/*  ******** patch ******** */
+
+.patch {
+    margin-top: 10px;
+    min-height: 500px;
+}
+
+.patch #mixt {
+  /* background: cyan; */
+
+}
+.patch #near {
+    /* background: rgb(139, 107, 0); */
+    float: right;
+}
+
+.patch #mixt, .patch  #near {
+    display: inline-block;
+}
+
+#near h3, #near a {
+    font-size: 35px;
+    text-align: center;
+    padding: 3rem 3rem;
+    margin: auto;
+}
+#near a {
+    text-decoration: none;
+}
+#near a:hover {
+    color: lightpink;
+}
+
+
+
+
+
+/* ****** boxes ******* */
+#boxes {
+    margin-top: 20px;
+}
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img {
+    width: 90px;
+}
+
+/* ****** footer ********* */
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background: rgb(122, 116, 55);
+}
+footer p {
+    text-align: center;
+    color: lightgreen;
+}
